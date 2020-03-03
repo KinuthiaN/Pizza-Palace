@@ -14,7 +14,7 @@ All you need is a computer and internet and link to the website to order your pi
 https://kinuthian.github.io/Pizza_Palace/
 
 #### License and Copyright Information
-This website is free and  open to the public
+This website is free and  open to the public.
 
 #### Author(s) Information
 My names is Geoffrey and, I am a beginner in software development.
