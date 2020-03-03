@@ -23,7 +23,7 @@ My names is Geoffrey and, I am a beginner in software development
 This website is coded in Html and is given more functionality by Javascript and jQuery.
 
 #### Technologies Used
-HTML,CSS,jQuery and Javascript are the technologies used
+HTML,CSS,jQuery and Javascript are the technologies used.
 
 #### Contact Information
 You can reach me through my github @KinuthiaN.
