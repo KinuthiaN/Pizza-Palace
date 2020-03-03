@@ -8,7 +8,7 @@ Geoffrey Kinuthia.
 It's a website that lets you buy pizza online, asks you for pizza requirements, can deliver if needed and gives total charge.
 
 #### Instructions
-All you need is a computer and internet and link to the website to order your pizza
+All you need is a computer and internet and link to the website to order your pizza.
 
 #### Link To Github Pages
 https://kinuthian.github.io/Pizza_Palace/
