@@ -20,7 +20,7 @@ This website is free and  open to the public
 My names is Geoffrey and, am a beginner in software development
 
 #### BDD
-This website is coded in Html and is given more functionality by Javascript and jQuery
+This website is coded in Html and is given more functionality by Javascript and jQuery.
 
 #### Technologies Used
 HTML,CSS,jQuery and Javascript are the technologies used
