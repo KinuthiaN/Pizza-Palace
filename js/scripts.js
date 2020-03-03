@@ -51,7 +51,9 @@ $(document).ready(function () {
             case 'Deep':
                 newPrice = price + 150
                 break;
-
+            case 'Double Cheese':
+                    newPrice = price + 200
+                    break;
         }
 
         if (quantity < 0) {
