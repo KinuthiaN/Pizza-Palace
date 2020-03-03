@@ -17,7 +17,7 @@ https://kinuthian.github.io/Pizza_Palace/
 This website is free and  open to the public
 
 #### Author(s) Information
-My names is Geoffrey and, am a beginner in software development
+My names is Geoffrey and, I am a beginner in software development
 
 #### BDD
 This website is coded in Html and is given more functionality by Javascript and jQuery.
