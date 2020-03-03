@@ -1,5 +1,5 @@
 # PIZZA PALACE
-It is a website wher you can order any pizza
+It is a website wher you can order any pizza.
 
 ## Authors
 Geoffrey Kinuthia.
