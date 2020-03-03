@@ -5,7 +5,7 @@ It is a website wher you can order any pizza.
 Geoffrey Kinuthia.
 
 ### About
-It's a website that lets you buy pizza online, asks you for pizza requirements and can deliver if needed.
+It's a website that lets you buy pizza online, asks you for pizza requirements, can deliver if needed and gives total charge.
 
 #### Instructions
 All you need is a computer and internet and link to the website to order your pizza
