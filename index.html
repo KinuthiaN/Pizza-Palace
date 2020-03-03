@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza Palace</title>
+</head>
+
+<body>
+
+        <div class="welcome">
+    
+            
+            <img src="imgs/images.jpg" alt="" width="100%">
+           
+        </div>
+                              
+      <div class="container-fluid">
+        <div class="jumbotron bg-primary">
+
+          <h1 class="text-center text-white welcome-order">Welcome to Pizza Palace!<h1>
+            <p class="text-center text-white welcome-order"></p>
+       </div>
+      <div id="pizza-data">
+      <div class="mid-section">
+        <div class="piza-data">
+          <div class="pizza-size text-center">
+            <label for="size">
+              <h3 class="welcome-order1">Pizza size</h3>
+            </label><br>
+            <select name="size" id="size">
+              <option value="Small">Small</option>
+              <figcaption class="small">Ksh.400<br></figcaption>
+              <option value="Medium">Medium</option>
+              <figcaption class="medium">Ksh.800<br></figcaption>
+              <option value="Large">Large</option>
+              <figcaption class="large">Ksh.1000<br></figcaption>
+            </select>
+          </div>
+          <div class="crust text-center" style="height: 40vh;">
+            <label for="crust">
+              <h3 class="text-center welcome-order1">Pizza crust</h3>
+            </label><br>
+            <select name="size" id="crust">
+              <option value="Thin">Thin</option>
+              <option value="castiron">Cast Iron</option>
+              <option value="grilled">Grilled</option>
+              <option value="thick">thick</option>
+              <option value="deep">Deep</option>
+            </select> 
+          </div>
+      </div>
+      
+        <div class="toppings text-center bg-primary text-white" style="height: 40vh;">
+          <label for="toppings">
+            <h3 class="welcome-order">Toppings</h3>
+          </label><br>
+          <select name="size" id="topping">
+            <option value="blackolives">blackolives</option>
+            <option value="pepperoni">pepperoni</option>
+            <option value="mushroom">mushroom</option>
+            <option value="onion">onion</option>
+            <option value="sausage">sausage</option>
+            <option value="bacon">bacon</option>
+            <option value="none">none</option>
+          </select>
+          <br><br>
+          <label for="quantity">
+            <h3 class="welcome-order">Number of Pizza</h3>
+          </label><br>
+          <input type="number" min="1" id="quantity" value="1" placeholder="eg..1"><br><br>
+          <button type="submit" id="btnSubmit" class="btn btn-primary">Place Order</button>
+        </div>
+
+        <div class="output">
+          <div id="output" style="height: 10vh;">
+            <h2>Order</h2>
+            <ul id="orders">
+
+            </ul>
+
+
+
+          </div>
+          <div class="show-order">
+            <div id="show-order">
+              <h2></h2>
+
+              <p>Size: <span class="pizza-size"></span></p>
+              <p>Crust: <span class="pizza-crust"></span></p>
+              <p>Topping: <span class="pizza-topping"></span></p>
+              <p>Quantity: <span class="pizza-quantity"></span></p>
+              <p>Total: <span class="pizza-total"></span></p><br>
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="delivery text-center" style="height: 35vh;">
+        <button id="pick-up" class="bg-primary">Order</button>
+        <button id="delivery" class="bg-primary">Delivery</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+
+</html>
